@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="ef1.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 fixed-top">
+      <div class="container">
+        <img src="imgs/Ef-Oneweb Hub - Boostrap Project - Google Chrome 9_24_2022 11_11_11 PM.png">
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+         <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="ef-1web.html" class="nav-link text-dark">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href=" #about" class="nav-link text-dark">About</a>
+          </li>
+          <li class="nav-item">
+            <a href=" #service" class="nav-link text-dark">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href=" #nstructors" class="nav-link text-dark">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href=" #nstructors" class="nav-link text-dark">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href=" #contact" class="nav-link text-dark">Contact</a>
+          </li>
+          <button type="button" class="btn btn-danger">Get Started</button>
+         </ul>
+        </div>
+    </nav>
+    <section class="d-flex flex-column pt-lg-5 container text-sm-start mb-5 lead">
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="imgs/cloud-services-case-study-success-story-4.jpg" class="d-block w-100" alt="coding-man">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>A custom IT services firm based in Nigeria</h5>
+              <p>Create Stunning Websites in Easier and Effecient Way! No matter you're building a business presentation website or a complex web application our design blocks can easily be adapted for your needs..</p>
+              <button type="button" class="btn btn-light">Read More</button>           
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="imgs/istockphoto-1363745804-170667a.jpg" class="d-block w-100" alt="programer-working-his-desk-office">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>innovate. connect. inspire</h5>
+              <p>Quite simply: we write code. However, unlike most software companies, we realize that's only part of the job. We don't just write code… We develop professional software. No matter you're building a business solution, website or a complex web application our design blocks can easily be adapted for your needs.</p>
+              <button type="button" class="btn btn-light">Read More</button> 
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="imgs/images (1).jpg" class="d-block w-100" alt="backend_text_1">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Learn, Unlearn & Relearn.</p>
+              <button type="button" class="btn btn-light">Read More</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  <section class="p-5 bg-light">
+    <div class="container">
+        <h2 class="text-center text-danger">Features</h2>
+        <h1 class="text-center">Why Choose ?</h1>
+        <h4 class="text-center">The mission at Ef-Oneweb is to add value and to contribute to our clients' long term success and competitive strength.</h4>
+    </div>
+    <div class="row text-center g-4">
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body text-center bg-light">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-layers" viewBox="0 0 16 16">
+                        <path d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zm3.515 7.008L14.438 10 8 13.433 1.562 10 4.25 8.567l3.515 1.874a.5.5 0 0 0 .47 0l3.515-1.874zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z"/>
+                      </svg>
+                    <h3 class="card-title mb-3 text-danger">Software Development</h3>
+                    <p class="card-text">Moving the power of software development into the hands of your entire company.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body text-center bg-light">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-brush" viewBox="0 0 16 16">
+                        <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.118 8.118 0 0 1-3.078.132 3.659 3.659 0 0 1-.562-.135 1.382 1.382 0 0 1-.466-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04zM4.705 11.912a1.23 1.23 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.39 3.39 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3.122 3.122 0 0 0 .126-.75l-.793-.792zm1.44.026c.12-.04.277-.1.458-.183a5.068 5.068 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005a.031.031 0 0 1-.007.004zm3.582-3.043.002.001h-.002z"/>
+                      </svg>
+                    <h3 class="card-title mb-3 text-danger">Web Design and Development</h3>
+                    <p class="card-text">We are reliable web development consultants to handle web projects.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body text-center bg-light">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16">
+                        <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435a4.9 4.9 0 0 1 .106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.632 2.632 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+                      </svg>
+                    <h3 class="card-title mb-3 text-danger">Training and Development</h3>
+                    <p class="card-text">We provide all of the tools and resources to help you get started quickly</p>
+                </div>
+            </div>
+        </div>    
+            
+  </section>   
+   <!--About Us-->
+   <sections id="about" class="p-5 bg-secondary">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md">
+                <img src="imgs/photo-1563986768609-322da13575f3.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md p-5">
+              <h2 class="text-danger">About Us</h2>
+              <h1 class="text-dark">We have extensive experience in many diverse areas of software development</h1>
+              <p>We have grown consistently since inception and today we offer a wide range of computing services, products and Solutions. Our experienced staff of professionals has worked with a wide array of platforms, languages, and tools in the course of our various projects.</p>
+              <h1 class="text-danger">30K</h1>
+              <h2 class="text-dark">Happy Client</h2>
+              <p>We Crafted an awesome design
+                library that is robust</p>
+            </div>
+        </div>
+    </div>
+ </sections>
+
+ <!--Services-->
+ <section class="p-5 bg-light" id="service">
+  <div class="container">
+      <h2 class="text-center text-danger">Services</h2>
+      <h1 class="text-center">Our Best Services</h1>
+      <h4 class="text-center">Skills for your present and future.Get started with us.</h4>
+  </div>
+  <div class="row text-center g-4">
+    <div class="col-md-3">
+        <div class="card bg-light">
+            <div class="card-body text-center bg-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+                <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
+                <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
+              </svg>
+                <h3 class="card-title mb-3 text-danger">Website Design</h3>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia tenetur harum omnis ducimus adipisci dolores corporis beatae.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card bg-light">
+            <div class="card-body text-center bg-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-lightning-charge" viewBox="0 0 16 16">
+                <path d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.732-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41 4.157 8.5z"/>
+              </svg>
+                <h3 class="card-title mb-3 text-danger">Database Management System Essentials</h3>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque laborum facilis modi illo illum asperiores rem quibusdam?</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card bg-light">
+            <div class="card-body text-center bg-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-link" viewBox="0 0 16 16">
+                <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/>
+                <path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+              </svg>
+                <h3 class="card-title mb-3 text-danger">Adobe Graphic Design Course</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi illum eum blanditiis ex, nam reiciendis corporis dolorum?</p>
+            </div>
+        </div>
+    </div> 
+    <div class="col-md-3">
+      <div class="card bg-light">
+          <div class="card-body text-center bg-light">
+            <svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-briefcase" viewBox="0 0 16 16">
+              <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z"/>
+            </svg>
+              <h3 class="card-title mb-3 text-danger">Full Stack JavaScript Developer </h3>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quo harum quae eius, a natus rerum similique!</p>
+          </div>
+      </div>
+  </div>    
+        
+</section>   
+<!--Contact Us-->
+<section class="p-5 bg-danger" id="contact">
+  <div class="container">
+      <h1 class="text-center text-light">Contact Us</h1>
+      <h4 class="text-center">Contact the Help Team.</h4>
+  </div>
+</section> 
+  <form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-4">
+      <label for="validationCustom01" class="form-label">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustom02" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="validationCustomUsername" class="form-label">Username</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <label for="validationCustom03" class="form-label">City</label>
+      <input type="text" class="form-control" id="validationCustom03" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom04" class="form-label">State</label>
+      <select class="form-select" id="validationCustom04" required>
+        <option selected disabled value="">Choose...</option>
+        <option class="1">Ogun State</option>
+        <option class="2">Lagos State</option>
+        <option class="3">Oyo State</option>
+        <option class="4">Ekiti State</option>
+        <option class="5">Osun State</option>
+      </select>
+      <div class="invalid-feedback">
+        Please select a valid state.
+      </div>
+    </div>
+    <div class="col-md-3">
+      <label for="validationCustom05" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="validationCustom05" required>
+      <div class="invalid-feedback">
+        Please provide a valid zip.
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Agree to terms and conditions
+        </label>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+  </form>   
+  <!-- Contacts-->
+  <section class="p-5" id="contact">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md">
+                <h2 class="text-center mb-4">Contact Info</h2>
+                <ul class="list-group list-group-flush lead">
+                    <li class="list-group-item">
+                        <span class="fw-bold">Main Location:</span> 1, Marine Custom, Idiroko, Ogun State
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Enrollment Phone:</span> 09037992896
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Enrollment Email:</span> Tycoon@gmail.com
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md">
+              <div id="map"></div>
+            </div>
+        </div>
+    </div>
+ </section>
